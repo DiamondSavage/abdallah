@@ -18,7 +18,7 @@
 
 html{
     font-size: 62.5%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 body{
     background: var(--bg-color);
@@ -389,6 +389,7 @@ footer a{
         border-top: .1rem solid rgba(0,0,0,.2);
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
         display: none;
+        overflow: hidden;
     }
     .navbar.active{
         display: block;
@@ -435,8 +436,7 @@ footer a{
 }
 @media (max-width: 450px){
     html{
-        font-size: 50%;
-        overflow-x: hidden;
+        font-size: 44%;
     }
     .contact form .input-box input{
         width: 100%;
@@ -455,5 +455,17 @@ footer a{
     .footer p{
         text-align: center;
         margin-top: 2rem;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 451px){
+    *{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}
+@Media screen and (max-width: 450px){
+    *{
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 }
