@@ -8,7 +8,6 @@
     text-decoration: none;
     border: none;
     outline: none;
-    overflow-x: hidden;
 }
 :root{
     --bg-color: #1f242d;
