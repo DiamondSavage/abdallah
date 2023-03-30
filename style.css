@@ -18,7 +18,7 @@
 
 html{
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body{
     background: var(--bg-color);
@@ -377,6 +377,7 @@ footer a{
 @media (max-width: 768px){
     #menu-icon{
         display: block;
+        margin: 0;
     }
     .navbar{
         position: absolute;
@@ -388,7 +389,6 @@ footer a{
         border-top: .1rem solid rgba(0,0,0,.2);
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
         display: none;
-        overflow: hidden:
     }
     .navbar.active{
         display: block;
@@ -436,13 +436,13 @@ footer a{
 @media (max-width: 450px){
     html{
         font-size: 50%;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .contact form .input-box input{
         width: 100%;
     }
 }
-@media (max-width: 365px){
+@media (max-width: 370px){
     .home-img img{
         width: 90vw;
     }
