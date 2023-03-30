@@ -8,8 +8,6 @@
     text-decoration: none;
     border: none;
     outline: none;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 :root{
     --bg-color: #1f242d;
@@ -20,7 +18,7 @@
 
 html{
     font-size: 62.5%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 body{
     background: var(--bg-color);
@@ -390,6 +388,7 @@ footer a{
         border-top: .1rem solid rgba(0,0,0,.2);
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
         display: none;
+        overflow: hidden:
     }
     .navbar.active{
         display: block;
@@ -437,6 +436,7 @@ footer a{
 @media (max-width: 450px){
     html{
         font-size: 50%;
+        overflow: hidden;
     }
     .contact form .input-box input{
         width: 100%;
