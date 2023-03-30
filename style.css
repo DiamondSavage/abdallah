@@ -18,7 +18,7 @@
 
 html{
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body{
     background: var(--bg-color);
@@ -377,7 +377,7 @@ footer a{
 @media (max-width: 768px){
     #menu-icon{
         display: block;
-        margin: 0;
+        margin-right: 0;
     }
     .navbar{
         position: absolute;
@@ -389,7 +389,6 @@ footer a{
         border-top: .1rem solid rgba(0,0,0,.2);
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
         display: none;
-        overflow: hidden;
     }
     .navbar.active{
         display: block;
@@ -455,17 +454,5 @@ footer a{
     .footer p{
         text-align: center;
         margin-top: 2rem;
-    }
-}
-@media only screen and (max-width: 600px) and (min-width: 451px){
-    *{
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-}
-@Media screen and (max-width: 450px){
-    *{
-        overflow-y: hidden;
-        overflow-x: hidden;
     }
 }
